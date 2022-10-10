@@ -1,0 +1,212 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif
+}
+
+body {
+    background-color: #000;
+
+}
+
+.backround {
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+
+.nevber {
+    width: 97%;
+    margin: auto;
+    padding: -10px;
+    padding-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #000;
+    position: fixed !important
+}
+
+.logo {
+    font-size: 30px;
+    color: #fff;
+    margin-top: -15px;
+}
+
+.yello {
+    color: black;
+    background-color: rgb(230, 143, 13);
+    border-radius: 5px;
+}
+
+div.nevber {
+    border-bottom: 15px solid black;
+    border-left: 23px solid rgb(230, 143, 13);
+    border-right: 23px solid rgb(230, 143, 13);
+    position: relative;
+}
+
+.nevber ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+}
+
+.nevber ul li a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+
+}
+
+.nevber ul li a:hover {
+    color: black;
+    background-color: rgb(230, 143, 13);
+    border-radius: 3px;
+}
+
+.nevber ul li::after {
+    content: '';
+    height: 3px;
+    width: 0px;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    background-color: rgb(230, 143, 13);
+    transition: 0.5s;
+}
+
+.nevber ul li:hover::after {
+    width: 100%;
+}
+
+.motive {
+    text-align: center;
+    width: 100%;
+    padding: 9rem 0px;
+    background: rgba(115, 114, 114, 0.579);
+
+
+}
+
+.motive h2 {
+    color: rgb(230, 143, 13);
+    text-shadow: rgba(98, 97, 97, 0.736) 3px 5px;
+    font-size: 70px;
+
+}
+
+.motive p {
+    font-size: 30px;
+
+}
+
+.hading h1 {
+    text-align: center;
+    color: rgb(230, 143, 13);
+    text-shadow: rgb(0, 0, 0) 2px 3px;
+    font-size: 50px;
+
+}
+
+.hading p {
+    text-align: center;
+    font-size: 30px;
+
+}
+
+.hading {
+    border-left: 20px solid rgb(230, 143, 13);
+    border-right: 20px solid rgb(230, 143, 13);
+    background-color: rgb(229 151 11 / 66%);
+    border-radius: 20%;
+    padding-bottom: 10px;
+    margin-top: -70px;
+
+}
+
+
+.boxs {
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.box img {
+    border-radius: 5px;
+}
+
+.box {
+
+    /* cursor: pointer; */
+    text-decoration: none;
+    margin: 30px;
+    background: linear-gradient(0deg, #000, #272727);
+
+}
+
+.box:hover {
+    box-shadow: rgba(230, 143, 13, 0.593) -2.0px -5px 25px;
+
+}
+
+
+
+.btn {
+    margin-left: 3px;
+    cursor: pointer;
+    text-align: center;
+    font-weight: 600;
+    border: none;
+    text-decoration: none;
+    font-size: 32px;
+    border-radius: 5px;
+    background: linear-gradient(0deg, #000, #272727);
+    text-decoration: none;
+}
+
+
+.forms {
+    /* border: red 2px solid; */
+    text-align: center;
+    background: linear-gradient(#dfd576b4, #e2ca12a4);
+    padding-bottom: 25px;
+}
+
+.contect {
+    margin: 10px;
+    border-radius: 4px;
+    width: 30%;
+    box-shadow: rgba(107, 106, 106, 0.444) 2px 3px 10px;
+    border: none;
+    height: auto;
+    text-decoration: none;
+}
+
+
+.contect:active {
+    /* font-size: 24px; */
+    /* background-color: rgba(234, 238, 127, 0.74); */
+    
+    
+}
+#formbtn {
+    border: none;
+    font-size: 20px;
+    border-radius: 3px;
+    cursor: pointer;
+    box-shadow: rgb(235, 233, 233) 2px 3px;
+    background-color: rgba(234, 238, 127, 0.74);
+    box-shadow: rgb(43, 42, 42) 2px 3px 10px;
+}
+#formbtn:active{
+    /* box-shadow: none; */
+
+}
+.formbtn a{
+    color: #000;
+}
